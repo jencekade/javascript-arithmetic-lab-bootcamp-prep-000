@@ -2,7 +2,7 @@ function add(a, b) {
   return a + b;
 }
 
-function subtracts(a, b) {
+function subtract(a, b) {
   return b - a;
 }
 
@@ -14,15 +14,15 @@ function divide(a, b) {
   return a / b;
 }
 
-function increments(n) {
+function inc(n) {
   return n++;
 }
 
-function decrements(n) {
+function dec(n) {
   return n--;
 }
 
-function parses(n) {
+function makeInt(n) {
   return parseInt(n, 10);
 }
 
